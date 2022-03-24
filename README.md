@@ -2,6 +2,7 @@
 
 A simple service to retrieve records from a DB with filters
 
+Heroku url: http://records-service-cristianpq.herokuapp.com
 # Requirements
 
 * `npm`
@@ -23,7 +24,7 @@ to change the port).
 ```
 curl --data '{
 "startDate": "2016-01-26", "endDate": "2018-02-02", "minCount": 2800, "maxCount": 3000
-}' -H "Content-Type: application/json" http://localhost:8080/records
+}' -H "Content-Type: application/json" http://records-service-cristianpq.herokuapp.com/records
 ```
 # Testing
 
