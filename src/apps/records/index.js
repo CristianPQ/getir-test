@@ -29,7 +29,7 @@ router.post("/", async (req, res) => {
     };
     statusCode = 200;
   } catch (e) {
-    logger.info(e);
+    logger.error(e);
     statusCode = 400;
     finalObj = { ...e };
   }
